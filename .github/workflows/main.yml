@@ -9,6 +9,9 @@ on:
       InvokeName:
         description: 'FunctionInvoke'
         required: true
+      FaaSrLog:
+        description: 'FaaSrLog'
+        required: false
 
 jobs:
   run_docker_image:
